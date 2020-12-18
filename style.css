@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+ scroll-behavior:smooth;
+}
+h1{
+  text-align: center;
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+  color:#777777;
+}
+nav{
+  text-align: center;
+    background-color:rgba(0,0,0,0.2)
+}
+a{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  opacity: 1;
+  font-weight:6px;
+}
+nav a{
+  color:white;
+  margin: 5px;
+  line-height: 30px;
+}
+a:hover{
+  opacity: 0.7;
+}
+.banner h2{
+  text-align: center;
+  font-size:50px;
+  margin: 50px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:white;
+  text-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.banner p{
+  text-align: right;
+  width:60%;
+  font-family: 'Raleway', sans-serif;
+   margin-right: 20px;
+    float: right;
+    clear:both;
+    margin-top: 30px;
+   margin-bottom: 30px;
+  color:brown;
+}
+.banner>a{
+  display: block;
+  width: 200px;
+  clear: both;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  color:brown;
+  line-height:35px;
+  transition: 0.5s;
+}
+.banner{
+    background: url("banner.jpg");
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.painting{
+  width: 40%;
+  height: 400px;
+  margin-right:30px;
+  object-fit: cover;
+}
+.info{
+  display:inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+#aboutUs{
+  text-align: center;
+}
+#aboutUs p{
+  text-align: left;
+}
+.info h2{
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.info p{
+  font-family: 'Oswald', sans-serif;
+}
+.important{
+  color:#fffffa;
+}
+.shop{
+  display:inline-block;
+  text-align: center;
+  margin: 20px;
+  border: 4px grey solid;
+  height: 400px;
+  font-family: 'Roboto Slab', serif;
+  background:url(https://www.tourprom.ru/site_media/images/upload/2016/8/30/resortimage/piter-zimnii.jpg);
+}
+.new{
+  background:url(https://kartami.ru/img/city/novgorod.jpg);
+}
+.old{
+  background:url(https://cdn2.tu-tu.ru/image/pagetree_node_data/1/c5338ccdf94843a66ed3a41772dc6120/);
+  background-size: cover; 
+}
+.good{
+  background:url(https://мтв.онлайн/files/2020/39648-120311-7118-6k8tjf.cv996.jpg);
+}
+ul{
+  list-style: none;
+  background-color:rgba(240, 255, 255, 0.5);
+}
+li{
+  color: red;
+}
+.stores{  
+  text-align: center;
+  object-fit: cover;
+} 
+.stores a{
+  background-color:rgba(255, 255, 255, 0.7);
+  padding: 7px;
+  display:inline-block;
+  margin-top:10px;
+}
+.stores h4{
+  background-color:rgba(240, 255, 255, 0.5);
+  margin-top: 10px;
+}
+.description{
+ margin-bottom:0px;
+ width:calc(100% - 200px); 
+ display: inline-block;
+ vertical-align: top;
+}
+.description h4{
+ font-size:20px;
+ margin-bottom: 5px;
+ font-family: 'Noto Serif', serif;
+}
+.description h5{
+ font-size:18px;
+ margin-bottom: 10px;
+ font-family: 'Noto Serif', serif;
+}
+.description p{
+ font-size:18px;
+ font-family: 'Noto Serif', serif;
+ margin: 30px;
+}
+.description h6{
+ font-size:15px;
+ font-family: 'Noto Serif', serif;
+}
+.description a{
+ font-size:15px;
+ font-family: 'Noto Serif', serif;
+ background-color: rgb(0,191,255);
+ border-radius: 5px;
+ color:white;
+ padding: 14px;
+ display:inline-block; 
+ margin-top:10px;
+}
+.product img{
+ width:200px;
+ border-radius: 100px;
+ border-width: 20px;
+ border-color:beige;
+ height: 200px;
+ text-align: left;
+ object-fit: cover;
+}
+.product{
+ width: 35%;
+ display:inline-block; 
+ background-color:white;
+ border-color:white;
+ margin: 20px;
+ border-width:15px;
+ border-style: solid;
+ font-size:0;
+ border-radius: 40px;
+ box-shadow: -10px -5px 5px rgba(0,0,0,0.7)
+}
+.products{
+ text-align: center;
+ background-image: url("candles.jpg");
+ background-size:cover;
+ background-attachment: fixed;
+}
+h2{
+ padding: 12px;
+ font-family: 'Comfortaa', cursive;
+}
+h3{
+ padding: 12px;
+ font-family: 'Comfortaa', cursive;
+}
+.products h2{
+ color:white;
+    text-shadow:0 0 10px rgba(0,0,0,0.5)
+}
+.feedback{
+ background: url(город.jpg)
+}
+form{
+ background-color:rgba(255,255,255,0.5);
+ width:400px;
+ margin:auto;
+ overflow: hidden;
+ margin-bottom: 80px;
+ margin-top: 80px;
+ text-align: center;
+}
+input, textarea, button{
+ display:block;
+ margin:auto;
+ width: 90%;
+ margin-bottom: 15px;
+ line-height: 35px;
+ resize: none;
+ border:none;
+ border-radius: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+button{
+ width: 50%
+}
+input{
+ font-family: 'Noto Serif', serif;
+}
+@media (max-width:600px){ 
+    nav a{
+     display: block;
+    }
+    .painting{
+     width:100%;
+    }
+    .info{
+     width:90%; 
+    }
+    .product{
+     width: 90%;;
+     box-sizing: border-box;
+     margin:20px 0px;
+    }
+    .description{
+     width:auto;
+    }
+}
