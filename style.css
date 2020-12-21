@@ -122,17 +122,17 @@ ul{
 li{
   color: red;
 }
-.stores{  
+#stores{  
   text-align: center;
   object-fit: cover;
 } 
-.stores a{
+#stores a{
   background-color:rgba(255, 255, 255, 0.7);
   padding: 7px;
   display:inline-block;
   margin-top:10px;
 }
-.stores h4{
+#stores h4{
   background-color:rgba(240, 255, 255, 0.5);
   margin-top: 10px;
 }
@@ -192,7 +192,7 @@ li{
  border-radius: 40px;
  box-shadow: -10px -5px 5px rgba(0,0,0,0.7)
 }
-.products{
+#products{
  text-align: center;
  background-image: url("candles.jpg");
  background-size:cover;
@@ -206,21 +206,22 @@ h3{
  padding: 12px;
  font-family: 'Comfortaa', cursive;
 }
-.products h2{
+#products h2{
  color:white;
     text-shadow:0 0 10px rgba(0,0,0,0.5)
 }
-.feedback{
+#feedback{
  background: url(город.jpg)
 }
 form{
  background-color:rgba(255,255,255,0.5);
- width:400px;
+ width:90%;
  margin:auto;
  overflow: hidden;
  margin-bottom: 80px;
  margin-top: 80px;
  text-align: center;
+ max-width: 400px;
 }
 input, textarea, button{
  display:block;
